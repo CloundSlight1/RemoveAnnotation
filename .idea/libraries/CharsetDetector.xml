@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CharsetDetector">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/CharsetDetector.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -6,7 +6,7 @@ import java.io.*;
 
 public class Main {
 
-    private static final String PATTERN = "(//.*)|(/\\*(\\s|.)*?\\*/)";
+    private static final String PATTERN = "(//[^\n]*)|(/\\*(.|\\s)*?\\*/)";
     private static final String PATTERN2 = "(?<!:)//.*|/\\*(\\s|.)*?\\*/";
 
     public static void main(String[] args) {
